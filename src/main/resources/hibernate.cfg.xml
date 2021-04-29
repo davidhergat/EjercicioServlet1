@@ -11,5 +11,7 @@
 	    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 	    
 	    <mapping class="beans.Departamento" />
+   	    <mapping class="beans.Empleado" />
+	    	    
 	</session-factory>
 </hibernate-configuration>
